@@ -30,8 +30,6 @@ The attack number column denotes if the tweet is used in the same attack within 
 
 ## Access to more data
 
-Twitter only allows sharing
-
 Twitter allows sharing Tweet / User objects via non-automated means via in person communications. Thus, you can contact us for the data we cannot publicly distribute, such as tweet and user objects or content of the lexicont tweets.
 
 Contact: tugrulcan dot elmas at epfl dot ch
