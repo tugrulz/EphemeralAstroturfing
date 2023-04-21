@@ -58,7 +58,7 @@ This is to ensure that there is no noisy accounts, such as those who were
 
 The attack number column denotes if the tweet is used in the same attack within the other tweets targeting the same keyword or not.
 
-## Code
+### Code
 
 - `lexicon_classifier.py`: Rule based classifier to detect lexicon tweets. 
 
