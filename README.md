@@ -39,7 +39,7 @@ Citation reference:
   year={2023}
 }
 ```
-
+```
 @inproceedings{elmas2021ephemeral,
   title={Ephemeral astroturfing attacks: The case of fake twitter trends},
   author={Elmas, Tu{\u{g}}rulcan and Overdorf, Rebekah and {\"O}zkalay, Ahmed Furkan and Aberer, Karl},
