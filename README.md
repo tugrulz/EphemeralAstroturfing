@@ -29,7 +29,7 @@ This is to ensure that there is no noisy accounts, such as those who were
 2019: Only the data and the annotations from the study "Ephemeral Astroturfing Attacks: The Case of Fake Twitter Trends"
 
 
-Citation reference:
+## Citation reference:
 
 ```
 @article{elmas2023analyzing,
