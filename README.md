@@ -20,7 +20,7 @@ fake_trends_20202122.csv: Only the fake trends between 2020-2022
 Botstream: Full activity of a sample of astrobots
 Search: Tweets mentioning a trend, collected when the bots attacked
 
-# Important Caveat for Bot Detection Researchers:
+## Important Caveat for Bot Detection Researchers:
 Please use bots that attacked multiple times (e.g., at least 4). 
 This is to ensure that there is no noisy accounts, such as those who were 
 - compromised accounts that were briefly included in the bot-net and acted as a bot but then saved themselves 
