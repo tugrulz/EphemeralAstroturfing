@@ -1,4 +1,24 @@
-# EphemeralAstroturfing
+# Ephemeral Astroturfing & Fake Trends Bots
+
+## Files 
+
+TODO
+
+
+
+```
+@article{elmas2023analyzing,
+  title={Analyzing Activity and Suspension Patterns of Twitter Bots Attacking Turkish Twitter Trends by a Longitudinal Dataset},
+  author={Elmas, Tu{\u{g}}rulcan},
+  journal={arXiv preprint arXiv:2304.07907},
+  year={2023}
+}
+```
+
+
+
+
+
 
 This repository contains the data, the annotations and the code for the paper "Ephemeral Astroturfing Attacks: The Case of Fake Twitter Trends".
 
