@@ -13,19 +13,24 @@ The tweet data was extracted from the Internet Archive's Twitter Stream Grab.
 - `2019`: The annotations from our earlier paper Ephemeral Astroturfing Attack The Case of Fake Twitter Trends (see below)
 
 - `botstream`: 2 week real-time tweets from a sample of bots. You can easily see the anomalies in tweeting and deleting behavior. For the longer dataset, please contact us, as it is a bit big.
+  -  `tweet_text.csv`: only the id, text and the language of the tweet
+  -  `tweet_metadata.csv`: id, language and the metadata information of the tweet
+  -  `deleted_tweets.csv`: id, author and the deletion time of the tweets 
 
-- `longitudinal_data`: all the bots found between 2013-2023, the tweets that made us detect them (attack_data.csv.bz2), and their profile information. 
+- `longitudinal_data`: all the bots found between 2013-2023, 
+  - `attack_data.csv.bz2`: the tweets that made us detect them , and their profile information. 
+  - `profile`: their profile information in 2023, if they were not suspended by then
 The data here is for statistical purposes and the accounts that are active before 2022 are mostly removed, it's better to use the data below
 
 - `search_api_results`: the bots here are detected real-time in late 2022, hence the recall is higher and the classifications are noise-free. (hence the name "past_search")
-- `bot_scores.csv`: the Botometer results of the accounts detected
-- `past_search_all_bot_tweets.csv`: The tweets that made us detect those bots
-- `past_search_all_bots_user.csv`: The basic profile and the statistics of the bots. The total attacks mean how many times we detect that bot being a bot.
-- `profile_info`: The profile info of bots downloaded in January 2023. The files inside have the same data but in different formats
+  - `bot_scores.csv`: the Botometer results of the accounts detected
+  - `past_search_all_bot_tweets.csv`: The tweets that made us detect those bots
+  - `past_search_all_bots_user.csv`: The basic profile and the statistics of the bots. The total attacks mean how many times we detect that bot being a bot.
+  - `profile_info`: The profile info of bots downloaded in January 2023. The files inside have the same data but in different formats
 
 - `trends`: The data related to trends
-- `all_trend_stats`.csv: Trends between 2013-2022 and their statistics
-- `fake_trends_20202122.csv`: Only the fake trends between 2020-2022
+  - `all_trend_stats`.csv: Turkish Trends between 2013-2022 and their statistics
+  - `fake_trends_20202122.csv`: Only the fake trends between 2020-2022
 
 ### Important Caveat for Bot Detection Researchers:
 We advise you to use bots that attacked multiple times (e.g., at least 4). We put total_attacks field to indicate this. 
